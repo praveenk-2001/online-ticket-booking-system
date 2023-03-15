@@ -38,7 +38,7 @@ public class PassengerDetails {
 		numberLabel.setFont(new Font("Serif",Font.BOLD,16));
 		background.add(numberLabel); 			 
 		
-		JPasswordField number = new JPasswordField(); 
+		JTextField number = new JTextField(); 
 		number.setBounds(200, 230, 200, 30); 
 		background.add(number); 
 		
@@ -69,7 +69,6 @@ public class PassengerDetails {
 		background.add(button);
 		button.addActionListener(new ActionListener() {
 			
-			@SuppressWarnings("deprecation")
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				

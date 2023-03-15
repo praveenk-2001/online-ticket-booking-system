@@ -60,6 +60,7 @@ public class Main {
 		
 		button.addActionListener(new ActionListener() {
 			
+			@SuppressWarnings("deprecation")
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				

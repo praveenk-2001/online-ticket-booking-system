@@ -15,7 +15,7 @@ public class Bus {
 		JLabel background=new JLabel(new ImageIcon("C:\\Users\\praveen.karikalan\\Downloads\\bg3.jpg"));
 		
 		
-		JLabel title = new JLabel("Mode of Transport");
+		JLabel title = new JLabel("Place of Transport");
 		title.setBounds(100, 40, 300, 50);
 		title.setForeground(Color.white);
 		title.setFont(new Font("Serif", Font.BOLD, 34));
